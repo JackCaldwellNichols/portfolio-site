@@ -12,7 +12,7 @@ import Education from "./Education.jsx";
 //create your first component
 const Home = () => {
 	return (
-		<div className="container mx-auto mt-4">
+		<div className="container mx-auto mt-4 mb-4">
 			<div className="row">
 				<div className="col-lg-3 col-md-4 col-sm-1">
 					<Profile />
