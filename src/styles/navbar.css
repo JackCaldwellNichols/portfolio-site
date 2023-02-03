@@ -1,0 +1,13 @@
+.nav-item {
+    text-decoration: none;
+}
+
+.navbar-brand {
+    text-decoration: none;
+}
+
+button {
+    background: none;
+    border: none;
+    color: white;
+}

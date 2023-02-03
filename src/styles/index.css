@@ -1,0 +1,11 @@
+.dark {
+  color: black;
+  background-color:  #0A1929 ;
+  font-family: Open Sans, sans-serif;
+  }
+
+.light {
+  color:dimgray;
+  background-color:  white ;
+  font-family: Open Sans, sans-serif;
+}

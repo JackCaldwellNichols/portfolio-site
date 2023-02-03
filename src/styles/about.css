@@ -1,0 +1,8 @@
+.colour {
+    color: rgb(0, 89, 255);
+}
+
+.light .card {
+    background-color: rgb(4, 4, 19);
+    color: white;
+}
