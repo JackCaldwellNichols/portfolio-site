@@ -27,7 +27,7 @@ const Portfolio = () => {
       <div className='card p-3 mt-4'>
       <div className='card-content row' style={{height: '300px'}}>
         <div className='col-lg-6 col-md col-sm-1 p1'>
-          <ReactPlayer url={'https://www.youtube.com/watch?v=QYOxmoWZomU'} width="100%" height="100%" controls />
+          <ReactPlayer url={'https://www.youtube.com/watch?v=KZCj38757XE'} width="100%" height="100%" controls />
          </div>
          <div className='col-lg-6 col-md col-sm-1 p1 mt-2'>
             <h5>
