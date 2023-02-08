@@ -6,7 +6,7 @@ const Portfolio = () => {
   return (
     <div className='container mt-3'>
     <div className='card p-3'>
-      <div className='card-content row' style={{height: '300px'}}>
+      <div className='card-content row' style={{height: '500px'}}>
         <div className='col-lg-6 col-md col-sm-1 p1'>
           <ReactPlayer url={'https://www.youtube.com/watch?v=NwjV1N7gK7k'} width="100%" height="100%" controls />
          </div>
@@ -25,7 +25,7 @@ const Portfolio = () => {
       </div>
       </div>
       <div className='card p-3 mt-4'>
-      <div className='card-content row' style={{height: '300px'}}>
+      <div className='card-content row' style={{minHeight: '500px', overflow: 'scroll'}}>
         <div className='col-lg-6 col-md col-sm-1 p1'>
           <ReactPlayer url={'https://www.youtube.com/watch?v=KZCj38757XE'} width="100%" height="100%" controls />
          </div>
@@ -47,7 +47,7 @@ const Portfolio = () => {
       </div>
       </div>
       <div className='card p-3 mt-4'>
-      <div className='card-content row' style={{height: '300px'}}>
+      <div className='card-content row' style={{height: '500px'}}>
         <div className='col-lg-6 col-md col-sm-1 p1'>
           <ReactPlayer url={'https://www.youtube.com/watch?v=za7GsO6tKX8'} width="100%" height="100%" controls />
          </div>
@@ -58,9 +58,6 @@ const Portfolio = () => {
               </strong>
             </h5>
             <ul>
-              <li>
-                <p>Final project in 4GeeksAcademy Full Stack Software Development bootcamp.</p>
-              </li>
               <li>
                 <p>Fully responsive Movie application built with ReactJS for the front end, Python/Flask and SQLAlchemy for the back end, with JWT for user authentication and using The Movie Database and Google for API calls.</p>
               </li>
