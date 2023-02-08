@@ -7,10 +7,10 @@ const Portfolio = () => {
     <div className='container mt-3'>
     <div className='card p-3'>
       <div className='card-content row' style={{height: '300px'}}>
-        <div className='col'>
-          <ReactPlayer url={'https://youtu.be/r1dMMWGrqr4'} width="100%" height="100%" controls />
+        <div className='col-lg-6 col-md col-sm-1 p1'>
+          <ReactPlayer url={'https://www.youtube.com/watch?v=NwjV1N7gK7k'} width="100%" height="100%" controls />
          </div>
-         <div className='col'>
+         <div className='col-lg-6 col-md col-sm-1 p1 mt-2'>
             <h5>
               <strong>
                 E-Commerce clothing website
@@ -26,10 +26,10 @@ const Portfolio = () => {
       </div>
       <div className='card p-3 mt-4'>
       <div className='card-content row' style={{height: '300px'}}>
-        <div className='col'>
+        <div className='col-lg-6 col-md col-sm-1 p1'>
           <ReactPlayer url={'https://www.youtube.com/watch?v=QYOxmoWZomU'} width="100%" height="100%" controls />
          </div>
-         <div className='col'>
+         <div className='col-lg-6 col-md col-sm-1 p1 mt-2'>
             <h5>
               <strong>
                 Full Stack Blog Website
@@ -48,10 +48,10 @@ const Portfolio = () => {
       </div>
       <div className='card p-3 mt-4'>
       <div className='card-content row' style={{height: '300px'}}>
-        <div className='col'>
+        <div className='col-lg-6 col-md col-sm-1 p1'>
           <ReactPlayer url={'https://www.youtube.com/watch?v=za7GsO6tKX8'} width="100%" height="100%" controls />
          </div>
-         <div className='col'>
+         <div className='col-lg-6 col-md col-sm-1 p1 mt-2'>
             <h5>
               <strong>
                 Full Stack Movie Application
