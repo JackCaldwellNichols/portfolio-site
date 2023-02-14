@@ -24,6 +24,25 @@ const Portfolio = () => {
          </div>
       </div>
       </div>
+       <div className='card p-3'>
+      <div className='card-content row' style={{height: '500px'}}>
+        <div className='col-lg-6 col-md col-sm-1 p1'>
+          <ReactPlayer url={'https://www.youtube.com/watch?v=bBBA7Jh0l3w'} width="100%" height="100%" controls />
+         </div>
+         <div className='col-lg-6 col-md col-sm-1 p1 mt-2'>
+            <h5>
+              <strong>
+                Full-Stack Social-Media Website
+              </strong>
+            </h5>
+            <ul>
+              <li>
+                <p>Full stack social media website, built with ReactJs and Node/Express JS and MySql. Includes sign up, login, profile pages, home page where user can see their posts and other users posts, edit profile option, add/remove comment, add/remove post, among other functionalities.  </p>
+              </li>
+            </ul>
+         </div>
+      </div>
+      </div>
       <div className='card p-3 mt-4'>
       <div className='card-content row' style={{minHeight: '500px', overflow: 'scroll'}}>
         <div className='col-lg-6 col-md col-sm-1 p1'>
